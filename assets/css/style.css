@@ -1,0 +1,90 @@
+body {
+    line-height: 1.7;
+    background-color: #AAB3AB;
+}
+footer {
+    background-color: grey;
+    color: white;
+    font-size: 10px;
+    text-align: center;
+    height: 70px;
+    padding: 2%;
+}
+h2 {
+    font-size: 26px;
+}
+h3,
+h4 {
+    color: #4FBFA5;
+    font-weight: bold;
+}
+.navbar-header {
+    background-color: #4FBFA5;
+    padding: 10px;
+    padding-top: 0px;
+    color: white;
+}
+.navbar-default {
+    background-color: white;
+}
+.aboutMePic {
+    float: left;
+    margin-right: 20px;
+    margin-bottom: 5px;
+}
+.contactIcon {
+    width: 30%;
+}
+.footerhr {
+    border-width: 5px;
+    border-color: #4FBFA5;
+    margin-top: 35px;
+    margin-bottom: 0px;
+}
+.contentBox {
+    background-color: white;
+    background-color: white;
+    padding: 20px;
+    border-width: 2px;
+    border-style: solid;
+    border-color: #BCBCBC;
+}
+.navbar .divider-vertical {
+    height: 30px;
+    margin-top: 5%;
+    border-right: 1px solid #ffffff;
+    border-left: 1px solid #f2f2f2;
+}
+#messageInput {
+    height: 180px;
+}
+#submitButton {
+    background-color: #4FBFA5;
+    color: white;
+    width: 14%;
+}
+.panel-body {
+    padding-bottom: 30px;
+}
+#portfolioImageOverlay {
+    position: relative;
+    bottom: 50px;
+    font-size: 18px;
+    padding: 5px;
+    background-color: #4FBFA5;
+    color: white;
+    text-align: center;
+    width: 100%;
+}
+.portfolioImage {
+    width: 100%;
+}
+
+/* Media Queries */
+
+/* Small screens */
+@media (max-width: 992px) {
+    h2 {
+        font-size: 18px;
+    }
+}
