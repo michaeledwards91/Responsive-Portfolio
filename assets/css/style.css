@@ -217,35 +217,63 @@ input[type=submit] {
 /* Media Queries */
 
 @media screen and (max-width: 980px) {
-
+	#logo {
+		margin-left: 13%;
+	}
+	nav {
+		margin-right: 13%;
+	}
+	.main-section {
+		max-width: 980px; /* override parent max-width */
+	    width: 40%;
+	    margin-left: 13%;
+	}
+	.sidebar {
+		max-width: 500px;
+	    width: 29%;
+	    margin-right: 13%;
+	}
+	.auth-image {
+		width: 100%;
+	}
+	.work {
+		width: 100%;
+	}
 }
 
 @media screen and (max-width: 768px) {
-	#logo {
-		margin-left: 20px;
-	}
-	nav {
-		margin-right: 10px;
-	}
-	.main-section {
-		max-width: 100%;
-	    width: 95%;
-	    margin-left: 20px;
-	}
-	.auth-image {
-		width: 50%;
-	}
-	.sidebar {
+    #logo {
+        margin-left: 20px;
+    }
+    nav {
+        margin-right: 10px;
+    }
+    .main-section {
         max-width: 100%;
         width: 95%;
         margin-left: 20px;
-    	float: left;
+    }
+    .auth-image {
+        width: 50%;
+    }
+    .sidebar {
+        max-width: 100%;
+        width: 95%;
+        margin-left: 20px;
+        float: left;
+    }
+    .work:nth-child(even) {
+        margin-right: 62px;
+    }
+    .work {
+        width: 45%;
     }
 }
 
 @media screen and (max-width: 640px) {
     #logo {
         width: 100%;
+        margin-left: 0px;
     }
     nav {
         float: none;
