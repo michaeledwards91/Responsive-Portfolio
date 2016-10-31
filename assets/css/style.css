@@ -213,3 +213,30 @@ input[type=submit] {
 	padding: 10px 30px;
 	cursor: pointer;
 }
+
+/* Media Queries */
+
+@media screen and (max-width: 980px) {
+
+}
+
+@media screen and (max-width: 768px) {
+	
+}
+
+@media screen and (max-width: 640px) {
+	#logo {
+		width: 100%;
+	}
+	
+	nav {
+		float: none;
+		margin-top: 0px;
+	}
+
+	nav a {
+		line-height: 55px;
+		padding-left: 10%;
+		padding-right: 10%;
+	}
+}
